@@ -1,48 +1,15 @@
-# word-count
-It appears that you've created an HTML document that analyzes a paragraph and displays the three most frequently occurring words along with their counts. Below is a README-style explanation for your code:
+# Word-count
 
----
+## Description:
 
-# Word Frequency Analyzer
+This HTML document displays the top 3 most frequently occurring words from a provided paragraph after removing punctuation and converting all text to lowercase.
 
-## Description
+## How to run the code:
 
-This project analyzes the frequency of words in a given paragraph and displays the top three most frequently occurring words.
+step 1:Save the HTML file with html extension.
 
-## How it Works
+step2:Click the "Go Live" button.A new browser window will open, displaying top 3 words.
 
-1. **Paragraph:** The input paragraph is provided in the `paragraph` variable.
-2. **Preprocessing:** The paragraph is converted to lowercase, and punctuation marks are removed using regular expressions.
-3. **Word Counting:** A JavaScript object (`counter`) is used to count the occurrences of each word.
-4. **Sorting:** The word count results are converted into an array (`arr`) and sorted in descending order based on word frequency.
-5. **Display:** The top three words along with their counts are displayed in an HTML element with the id `app`.
+## Future Enhancements:
 
-## How to Use
-
-1. Clone the repository or copy the HTML file.
-2. Open the HTML file in a web browser.
-3. View the top three most frequently occurring words in the provided paragraph.
-
-## Customization
-
-- Feel free to modify the `paragraph` variable with your own text for analysis.
-- Adjust the CSS styles in the `<style>` section to customize the appearance of the result.
-
-## Requirements
-
-- A web browser that supports JavaScript.
-
-## Example
-
-```javascript
-var paragraph = `...`;  // Input your paragraph here
-// ... (rest of the code)
-```
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-Feel free to customize this README to better suit your needs or to provide more information about the project and its usage.
+Implementing user interactivity to allow dynamic paragraph input. Adding the ability to customize the number of top words displayed
